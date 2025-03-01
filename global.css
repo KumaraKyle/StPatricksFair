@@ -1,0 +1,96 @@
+h2 {
+  font-size: 64px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: 36px;
+  margin: 0;
+}
+
+p {
+  line-height: 21px;
+}
+
+span h3 {
+  margin: 0;
+}
+section {
+  font-family: Arial, sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header img {
+  width: 100%;
+  display: block;
+}
+
+section {
+  padding: 20px;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bunting img {
+  width: 100%;
+}
+
+.info-container div {
+  width: 50%;
+}
+
+.event-highlight {
+  border-radius: 10px;
+  justify-content: center;
+  padding: 5%;
+  padding-top: 0%;
+}
+
+.event-highlight header {
+  border-radius: 10px;
+  align-items: center;
+  text-align: center; /* Center text */
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-highlight span {
+  display: block;
+  text-align: center; /* Center text */
+  margin-top: 20px;
+}
+
+.event-highlight article {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.event-highlight article div {
+  width: 40%;
+  text-align: center;
+}
+.event-highlight article:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.event-highlight article img {
+  height: auto;
+  border-radius: 8px;
+}
